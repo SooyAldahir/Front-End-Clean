@@ -456,6 +456,6 @@ No se usan archivos `.env` en Flutter. La configuración sensible se maneja así
 
 <div align="center">
 
-Desarrollado con ❤️ para Capellania Universitaria
+Desarrollado con ❤️ para Capellania Universitaria - Universidad Linda Vista SA. de CV.
 
 </div>
