@@ -1,0 +1,45 @@
+cd /Users/aldahirballina/Clean\ Architecture/Front-End
+
+# Crea/reemplaza el .gitignore
+cat > .gitignore << 'EOF'
+# Flutter/Dart
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.g.dart
+*.freezed.dart
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Misc
+*.log
+*.tmp
+.DS_Store
+EOF
